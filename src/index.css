@@ -1,0 +1,20 @@
+ 
+body {
+  background-image: url("../public//bg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.container{
+  width: 90vw;
+  height: 90vh;
+  background-color: rgba(23, 50, 104, 0.526);
+  backdrop-filter: blur(19px) saturate(180%);
+ border: 1px solid rgba(131, 133, 137, 0.127);
+  border-radius: 10px;
+  display: flex;
+}

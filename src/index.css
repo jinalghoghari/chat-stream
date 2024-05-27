@@ -1,6 +1,7 @@
  
 body {
-  background-image: url("../public//bg.jpg");
+  background-image: url("../public//bggreen.jpeg");
+  background-repeat:no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,11 +11,18 @@ body {
 }
 
 .container{
-  width: 90vw;
+  width: 80vw;
   height: 90vh;
-  background-color: rgba(23, 50, 104, 0.526);
+  background-color: rgba(10, 21, 42, 0.214);
   backdrop-filter: blur(19px) saturate(180%);
- border: 1px solid rgba(131, 133, 137, 0.127);
+  border: 1px solid rgba(131, 133, 137, 0.259);
   border-radius: 10px;
   display: flex;
+}
+
+.loading{
+  padding: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: rgba(17, 25, 40, 0.6);
 }
